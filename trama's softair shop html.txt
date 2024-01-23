@@ -1,0 +1,101 @@
+<!trama's softair shop html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trama's Softair Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Sfondo bianco */
+            color: #333; /* Colore testo */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4b5320; /* Verde militare */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: #556b2f; /* Verde militare più scuro */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f0f0f0; /* Colore di sfondo leggermente grigio */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #4b5320; /* Verde militare */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1, h2, h3 {
+            color: #4b5320; /* Verde militare per i titoli */
+        }
+
+        button {
+            background-color: #4b5320; /* Verde militare per i pulsanti */
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #556b2f; /* Cambia colore al passaggio del mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trama's Softair Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Prodotti</a> |
+        <a href="#">Carrello</a> |
+        <a href="#">Contattaci</a>
+    </nav>
+
+    <section>
+        <h2>Prodotti in Evidenza</h2>
+        <div>
+            <h3>Fucile Softair XYZ</h3>
+            <p>Descrizione del prodotto. Prezzo: $XX.XX</p>
+            <button>Aggiungi al Carrello</button>
+        </div>
+
+        <div>
+            <h3>Pistola Softair ABC</h3>
+            <p>Descrizione del prodotto. Prezzo: $XX.XX</p>
+            <button>Aggiungi al Carrello</button>
+        </div>
+
+        <!-- Aggiungi altri prodotti qui -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Trama's Softair Shop</p>
+    </footer>
+
+</body>
+</html>
